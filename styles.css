@@ -1,0 +1,51 @@
+html, body{
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+main  {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+}
+
+section {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
+
+h1, h2, h3, p, label {
+  margin: 0 1rem;
+}
+
+input {
+  margin: 0.5em;
+}
+
+label {
+  margin: 0 1em;
+}
+
+input:number {
+  border: 1px solid black;
+  padding: 0.5em;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin-left: 1rem;
+}
