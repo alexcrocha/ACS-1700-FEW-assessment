@@ -44,8 +44,6 @@ input:number {
 }
 
 #box {
-  width: 100px;
-  height: 100px;
   border: 1px solid black;
   margin-left: 1rem;
 }
