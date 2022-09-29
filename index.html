@@ -1,59 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="IE=edge"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <link
-      rel="stylesheet"
-      href="styles.css"
-    />
-    <title>FEW Assessment</title>
-  </head>
 
-  <body>
-    <main>
-        <section id="title">
-          <h1>Alex Rocha</h1>
-          <p>FEW Assessment</p>
-        </section>
-        <section id="inputs">
-          <label for="width">Width:</label
-          ><input
-            type="number"
-            name="width"
-            id="width"
-          /><label for="height">Height:</label
-          ><input
-            type="number"
-            name="height"
-            id="height"
-          /><label for="colour">Color:</label
-          ><input
-            type="color"
-            name="colour"
-            id="colour"
-          />
-        </section>
-        <section id="display">
-          <h3>Width</h3>
-          <p id="width-display">p</p>
-          <h3>Height</h3>
-          <p id="height-display">p</p>
-          <h3>Colour</h3>
-          <p id="colour-display">p</p>
-        </section>
-        <section id="visual">
-          <h2>Colour</h2>
-          <div id="box"></div>
-        </section>
-    </main>
-    <script src="scripts.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>FEW Assessment</title>
+</head>
+
+<body>
+  <main>
+    <section id="title">
+      <h1>Alex Rocha</h1>
+      <p>FEW Assessment</p>
+    </section>
+    <section id="inputs">
+      <label for="width">Width:</label><input type="number" name="width" id="width" /><label
+        for="height">Height:</label><input type="number" name="height" id="height" /><label
+        for="colour">Color:</label><input type="color" name="colour" id="colour" />
+    </section>
+    <section id="display">
+      <h3>Width</h3>
+      <p id="width-display"></p>
+      <h3>Height</h3>
+      <p id="height-display"></p>
+      <h3>Colour</h3>
+      <p id="colour-display"></p>
+    </section>
+    <section id="visual">
+      <h2>Colour</h2>
+      <canvas id="box"></canvas>
+    </section>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+
 </html>

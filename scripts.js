@@ -1,7 +1,7 @@
 const widthInput = document.getElementById("width");
-widthInput.value = 100;
+widthInput.value = 75;
 const heightInput = document.getElementById("height");
-heightInput.value = 100;
+heightInput.value = 75;
 const colourInput = document.getElementById("colour");
 colourInput.value = "#f12f12";
 
@@ -13,7 +13,6 @@ const colourDisplay = document.getElementById("colour-display");
 colourDisplay.innerHTML = `${colourInput.value}`;
 
 const box = document.getElementById("box");
-console.log(box);
 box.style.width = `${widthInput.value}px`;
 box.style.height = `${heightInput.value}px`;
 box.style.backgroundColor = colourInput.value;
@@ -25,7 +24,7 @@ inputs.onchange = (event) => {
   const displayParagraph = document.getElementById(
     `${event.target.id}-display`
   );
-  displayParagraph.innerHTML = event.target.value;
+  displayParagraph.innerHTML = `${event.target.value}px`;
   if (event.target.id === "colour") {
     box.style.backgroundColor = event.target.value;
   } else {
